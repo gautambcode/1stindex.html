@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ul {
+    padding: 0;
+    margin: 0;
+    float: right;
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+    -webkit-column-width: 50%;
+       -moz-column-width: 50%;
+            column-width: 50%;   
+}
+</head>
+div {
+    width: 420px;
+    height: 1000px;
+    border: 1px solid;
+    overflow-y: scroll;
+}
+img {
+	float: left;
+}
+ul {
+	list-style-position: inside;
+}
+</style>
+<div>
+<float:left><video width="220" height="240" controls>
+  <source src="https://www.youtube.com/watch?v=hN4OXPZtHtI" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+</video>
+  <p><b>#Title </b><span>Default title</p>
+  <p><b>#Genre </b><span>Default genre</p>
+</div>
+<ul>
+    <p>Current_playing_track</p>
+    <p>RAM_Available</p>
+    <p>up_time</p>
+    <p>clone_update_repository</p>
+    <p>connect_vpn</p>
+    <p>device_available_space</p>
+    <p>disconnect_vpn</p>
+    <p>du_Hast</p>
+    <p>661MB</p>
+    <p>4minutes</p>
+    <p>Yes</p>
+    <p>Yes</p>
+    <p>Yes</p>
+    <p>Yes</p>
+</ul>
+</html>

@@ -7,8 +7,10 @@ table {
 	margin-left: auto;
 	margin-right: auto;
 	overflow-y: auto;
+	overflow-x: hidden;
 	display: block;
 }
+thead, tbody { display: block; }						      
 	
 </head>
 	
@@ -25,8 +27,8 @@ video {
 }
 </style>
 <div>
-<table id="musicalTable width="100%" bgcolor="#ffffff">
-<tbody style="height: 100px; overflow-y:scroll; ">						      
+<table id="musicalTable" width="100%" bgcolor="#ffffff">
+<tbody style="height: 100px; overflow-y:scroll; overflow-x:hidden;">						      
   <tr>
     <td style="font-weight:bold">Current_playing_track</td>
     <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp#title</td>

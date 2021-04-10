@@ -3,6 +3,12 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+.videoDiv
+{
+    width: 30%; /*or whatever % you prefer*/
+    margin: 0 auto;
+    display: block;
+}	
 .center	{
 	margin-left: auto;
 	magin-right: auto;
@@ -23,10 +29,7 @@ div {
     width: 200px;
     height: 200px;
 }
-video {
-	float: left;
-    	display: block
-}
+
 img {
 	width:200px;
 	height:200px;
@@ -70,9 +73,13 @@ img {
   </tr>
 </table>
 </div>
-<audio controls="controls">
-  <source src="track.ogg" type="audio/ogg" />
-  <source src="track.mp3" type="audio/mpeg" />
+<div class="videoDiv">
+  <video width="100%" controls>
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+    <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+  </video>
+</div>
 	#Default Title
 	#Default Album
 </audio>	
